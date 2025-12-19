@@ -1,0 +1,45 @@
+.settings-page .page-header {
+  margin-bottom: 30px;
+}
+
+.settings-page .page-header h1 {
+  font-size: 28px;
+}
+
+.settings-card {
+  max-width: 600px;
+}
+
+.settings-card h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.settings-desc {
+  color: var(--text-light);
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.settings-card .form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.settings-card small {
+  display: block;
+  margin-top: 6px;
+  color: var(--text-light);
+  font-size: 12px;
+}
+
+.form-actions {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .settings-card .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
